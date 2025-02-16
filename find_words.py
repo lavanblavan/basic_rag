@@ -9,8 +9,7 @@ from pdf2image import convert_from_path
 
 boxes,txts,scores,x_max,coord_txt = [],[],[],[],[]
 ocr = PaddleOCR(use_angle_cls=True)
-img_path = 'Screenshot 2024-10-30 112503.png'
-result = ocr.ocr(img_path)
+
 
 def save_ocr(img_path, out_path, result, font):
     save_path = os.path.join(out_path, os.path.splitext(os.path.basename(img_path))[0] + '_output.png') # Better file naming
