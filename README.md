@@ -114,4 +114,4 @@ https://github.com/user-attachments/assets/a9865f75-7a8a-4a16-9a35-a69bb003802e
 
    <h2>License</h2>
    
-    <p>This project is licensed under the MIT License.</p>
+    This project is licensed under the MIT License.
